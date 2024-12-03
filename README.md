@@ -12,7 +12,7 @@ Creating a personal portfolio website using Python, HTML, Node.js, and modern to
    - Education
    - Contact (with a form or email link)
 2. **Design the Layout**:
-   - Use tools like Adobe XD, Figma, or a sketchpad to design your website layout.
+   - Use tools like Figma or a sketchpad to design your website layout.
 
 ---
 
