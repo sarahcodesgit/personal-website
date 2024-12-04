@@ -1,6 +1,6 @@
-import About from '/pages/about.js';
-import Home from '/pages/home.js';
-import Projects from '/pages/projects.js';
+import About from '/pages/About.js';
+import Home from '/pages/Home.js';
+import Projects from '/pages/Projects.js';
 
 const app = document.getElementById('app');
 
