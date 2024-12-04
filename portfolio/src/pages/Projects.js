@@ -10,7 +10,6 @@ const Projects = () => {
                     <p>A brief description of the project and its purpose.</p>
                     <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
                     <a href="https://github.com/yourusername/project1" target="_blank">View Source</a>
-                    <a href="https://project1-live-demo.vercel.app" target="_blank">Live Demo</a>
                 </div>
 
                 <!-- Project 2 -->
@@ -20,7 +19,6 @@ const Projects = () => {
                     <p>A brief description of the project and its purpose.</p>
                     <p><strong>Tech Stack:</strong> React, Node.js, MongoDB</p>
                     <a href="https://github.com/yourusername/project2" target="_blank">View Source</a>
-                    <a href="https://project2-live-demo.vercel.app" target="_blank">Live Demo</a>
                 </div>
             </div>
         </section>
