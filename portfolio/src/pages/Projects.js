@@ -1,25 +1,23 @@
 const Projects = () => {
     return `
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <!-- Project 1 -->
-                <div class="project">
-                    <h3>Project Title 1</h3>
-                    <img src="/images/project1.png" alt="Project 1 Thumbnail" width="300">
-                    <p>A brief description of the project and its purpose.</p>
-                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-                    <a href="https://github.com/yourusername/project1" target="_blank">View Source</a>
+        <section class="p-8">
+            <h2 class="text-2xl font-bold mb-4">My Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white shadow rounded p-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                    <p class="text-gray-600">Description of the project goes here.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank" class="text-blue-500 hover:underline">
+                        View on GitHub
+                    </a>
                 </div>
-
-                <!-- Project 2 -->
-                <div class="project">
-                    <h3>Project Title 2</h3>
-                    <img src="/images/project1.png" alt="Project 2 Thumbnail" width="300">
-                    <p>A brief description of the project and its purpose.</p>
-                    <p><strong>Tech Stack:</strong> React, Node.js, MongoDB</p>
-                    <a href="https://github.com/yourusername/project2" target="_blank">View Source</a>
+                <div class="bg-white shadow rounded p-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                    <p class="text-gray-600">Description of another project goes here.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank" class="text-blue-500 hover:underline">
+                        View on GitHub
+                    </a>
                 </div>
+                <!-- Add more project cards as needed -->
             </div>
         </section>
     `;

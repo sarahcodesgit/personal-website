@@ -1,12 +1,13 @@
-import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footer.js";
-
 const Home = () => {
     return `
-        <section id="home">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm [Your Name], a [Your Profession, e.g., Software Engineer] passionate about building amazing digital experiences.</p>
-            <a href="#projects" class="btn">See My Work</a>
+        <section class="text-center p-8">
+            <h2 class="text-2xl font-bold mb-4">Welcome to My Portfolio</h2>
+            <p class="text-gray-700">
+                Hi, I'm [Your Name], a passionate web developer creating impactful digital experiences.
+            </p>
+            <a href="#projects" class="inline-block mt-4 px-6 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-700">
+                View My Projects
+            </a>
         </section>
     `;
 };
