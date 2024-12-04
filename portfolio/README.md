@@ -12,8 +12,6 @@ Create a portfolio using CSS, HTML, VS, GitHub, and Vercel to showcase education
       - `logo.jpg`: The logo displayed in the navigation bar.
   - **`index.html`**: This is the main HTML file, the entry point for the website and where context is displayed.
 
----
-
 ### **2. What Happens in This Structure**
 
 #### **`index.html`**
@@ -40,8 +38,6 @@ Create a portfolio using CSS, HTML, VS, GitHub, and Vercel to showcase education
     <img src="assets/image/navbar-logo.png" alt="Logo">
     ```
 
----
-
 ### **3. Key Things to Note**
 - **Linking Assets**: 
   - All paths `index.html` are relative. For example:
@@ -60,8 +56,6 @@ Create a portfolio using CSS, HTML, VS, GitHub, and Vercel to showcase education
 
 - **Dynamic Content (optional)**:
   - If you want to dynamically add sections like `Home`, `About`, and `Projects`, you’ll need a JavaScript file (e.g., `app.js`) to handle navigation and content injection.
-
----
 
 ### **Next Steps**
 1. **Ensure Asset Linking**:
